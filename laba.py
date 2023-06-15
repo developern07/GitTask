@@ -9,7 +9,6 @@ def dfs(graph, start, end, path=[]):
                 return newpath
 
 
-
 graph = {1: [2,3], 2: [1,4], 3: [1], 4: [2]}
 start = 2
 end = 4
