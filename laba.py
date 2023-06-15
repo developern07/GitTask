@@ -8,7 +8,8 @@ def dfs(graph, start, end, path=[]):
             if newpath is not None:
                 return newpath
 
-
+#какие то комментарии
+#еще комментарии
 
 graph = {1: [2,3], 2: [1,4], 3: [1], 4: [2]}
 start = 2
